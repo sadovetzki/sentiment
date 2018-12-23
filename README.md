@@ -31,9 +31,9 @@ Starting the app:
 
 	7. Install ngx bootstrap by running the command 'npm install ngx-bootstrap --save'
 
-	8. Start kestrel server by running the command 'dotnet run'
+	8. Open new terminal (ctrl + shift + ~) and navigate to API folder 'cd .\SentimentApp.API\'
 
-	9. Open new terminal (ctrl + shift + ~) and navigate to API folder 'cd .\SentimentApp.API\'
+	9. Start kestrel server by running the command 'dotnet run'
 
 	10. Start SPA application from terminal .\SentimentApp-SPA\ by running the command 'ng serve'
 
