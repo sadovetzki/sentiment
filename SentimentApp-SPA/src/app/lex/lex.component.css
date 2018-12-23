@@ -1,0 +1,18 @@
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+.badge {
+  padding: 5px;
+}

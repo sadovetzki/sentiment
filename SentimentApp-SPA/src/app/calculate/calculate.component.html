@@ -1,0 +1,28 @@
+<div class="container">
+  <form (ngSubmit)="parse()">
+    <div class="form-group">
+      <textarea
+        class="form-control"
+        rows="5"
+        placeholder="Text to parse..."
+        name="textToParse"
+        [(ngModel)]="lexCalculation.text"
+      ></textarea>
+      <input
+        class="mt-1"
+        type="file"
+        accept=".txt"
+        (change)="fileUpload($event.target.files)"
+      />
+      <div class="float-right mt-1">
+        <button class="btn btn-info" type="submit">Calculate</button>
+      </div>
+    </div>
+  </form>
+  <form class="form-inline">
+    <br />
+    <br />
+    <h6>Sentiment grade:</h6>
+    <h6 class="ml-1">{{ lexCalculation.averageGrade | number }}</h6>
+  </form>
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "Word": "nice",
+    "Grade": 0.4
+  },
+  {
+    "Word": "excellent",
+    "Grade": 0.8
+  },
+  {
+    "Word": "modest",
+    "Grade": 0
+  },
+  {
+    "Word": "horrible",
+    "Grade": -0.8
+  },
+  {
+    "Word": "ugly",
+    "Grade": -0.5
+  }
+]
