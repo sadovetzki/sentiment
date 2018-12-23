@@ -43,7 +43,7 @@ namespace SentimentApp.API
                 app.UseDeveloperExceptionPage();
             }
 
-            seed.SeedData();
+            //seed.SeedData();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseDefaultFiles();
             app.UseStaticFiles();
