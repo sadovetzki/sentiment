@@ -1,3 +1,5 @@
+Project / solution can be downloaded from Github: https://github.com/sadovetzki/sentiment
+
 Requirements:
 
 	1. Visual Studio Code
@@ -25,16 +27,20 @@ Starting the app:
 
 	5*. Install node modules by running the command 'npm install'
 
-	6. Start kestrel server by running the command 'dotnet run'
+	6. Install bootstrap by running the command 'npm install bootstrap' 
 
-	7. Open new terminal (ctrl + shift + ~) and navigate to API folder 'cd .\SentimentApp.API\'
+	7. Install ngx bootstrap by running the command 'npm install ngx-bootstrap --save'
 
-	8. Start SPA application from terminal .\SentimentApp-SPA\ by running the command 'ng serve'
+	8. Start kestrel server by running the command 'dotnet run'
 
-	9. Open your browser of choice and navigate to 'localhost:4200' 
+	9. Open new terminal (ctrl + shift + ~) and navigate to API folder 'cd .\SentimentApp.API\'
+
+	10. Start SPA application from terminal .\SentimentApp-SPA\ by running the command 'ng serve'
+
+	11. Open your browser of choice and navigate to 'localhost:4200' 
 
 
-* If the error 'npm is not recognized as cmdlet' is encountered, you need to set default command prompt for VS code to be cmd.exe:
+5* If the error 'npm is not recognized as cmdlet' is encountered, you need to set default command prompt for VS code to be cmd.exe:
  > ctrl + shift + p
  > Type "Select Default Shell" + Enter
  > Select 'Command Prompt ...cmd.exe'
