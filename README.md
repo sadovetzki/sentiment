@@ -1,5 +1,3 @@
-Project / solution can be downloaded from Github: https://github.com/sadovetzki/sentiment
-
 Requirements:
 
 	1. Visual Studio Code
